@@ -8,7 +8,12 @@ $(".name-hide").text("Enter your name");
 return false;}
 else{true;}
 
-if(!firstname.match(check)){
+var res=0;
+for(var i=0;i<10;i++)
+{
+    res++;
+    console.log(i);}
+    if(!firstname.match(check)){
 $(".name-hide").text("Enter your valid name");
     return false;}
     else{true;}
